@@ -1,7 +1,7 @@
 package com.example.demo.util;
 
 public final class ApiPaths {
-	private static final String BASE_PATH = "/api";
+    private static final String BASE_PATH = "/api";
 	
     public static final class UserBasicCtrl {
         public static final String CTRL = "/user";
