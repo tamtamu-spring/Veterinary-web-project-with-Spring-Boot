@@ -8,8 +8,14 @@
 - Download this project then open this project on eclipse.
 - After opening this project. right click on project then configure-> convert to maven project.
 - Open application.properties file. write ` spring.jpa.hibernate.ddl-auto=update `.
-- you need to create a database called `auth` on wampserver & mysql. if you want to change database's name you can change by setting on application properties.
-- you can run this project on eclipse.
+- You need to make your database settings.
+- You need to create a database called `auth` on wampserver & mysql. if you want to change database's name you can change by setting on application properties.
+``` 
+spring.datasource.url = jdbc:mysql://localhost:3306/auth?useUnicode=yes&characterEncoding=UTF-8
+spring.datasource.username = root
+spring.datasource.password =
+``` 
+- Then you can run this project on eclipse.
 - Your database's table can create regularly After writing on application.properties file 
 - because this project contain devtools for `Automatic reload` throug devtools. 
 - Let's start using this project.
